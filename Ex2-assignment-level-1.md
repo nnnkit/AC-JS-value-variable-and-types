@@ -1,6 +1,6 @@
 ## writeCode
 
-Define 5 values of types number and string and store it in a variable.
+Define 5 values of types number and string and store them in variables.
 
 ## writeCode
 
@@ -11,11 +11,11 @@ Define 5 values of types number and string and store it in a variable.
 
 ## writeCode
 
-Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
+Use `prompt` to take two numbers from user and store them in variables `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store the result in varible `sum` and using alert display `sum` in browser.
 
 ## writeCode
 
-Define 10 variables and store any kind of value in it. Like name, age etc
+Define 10 variables and store any kind of value in it. Like name, age etc.
 
 ## writeTextAnswer
 
@@ -23,11 +23,11 @@ Define 10 variables and store any kind of value in it. Like name, age etc
 
 ## writeTextAnswer
 
-- What is a truthy and falsey values.
+- What are truthy and falsey values?
 
 ## writeTextAnswer
 
-- What are falsey values?
+- What are the different falsey values?
 
 ## writeCode
 
@@ -53,6 +53,8 @@ Q. What does the 'mkdir' command do?
 - [ ] 'Welcome to JavaScript"
 - [ ] "Welcome to JavaScript'
 - [ ] 'Welcome to JavaScript'
+
+//FEEDBACK: CANNOT UNDERSTAND THE ABOVE QUESTION AN OPTIONS
 
 ## writeTextAnswer
 

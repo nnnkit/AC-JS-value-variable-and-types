@@ -8,7 +8,7 @@ For example
 
 `"Arya"` and `23` in programming terms are called values.
 
-You can have different kind of values a letter, word, paragraph, number etc. These values are divided into different types also know `Data Types` or you can call it value types. All the value has to be one of the following types.
+You can have different kind of values: a letter, word, paragraph, number etc. These values are divided into different types also know as `Data Types` or you can call it `Value Types`. All the values have to be one of the following types.
 
 ### Data Types
 
@@ -34,10 +34,10 @@ All numeric values are of `number` data type in JavaScript. Example of number ty
   456 - 123, // Integers
   -324; // Negative Numbers
 132.43, -12.23; // Decimal point number
-Infinity, NaN, -Infinity; // Special numbers like
+Infinity, NaN, -Infinity; // Special numbers
 ```
 
-**JavaScript uses a fixer number of bits i.e `64` to store a single number.**
+**JavaScript uses a fixed number of bits i.e `64` to store a single number.**
 
 Special numbers are values that are of number data type but doesn't exactly behaves like numbers in some cases.
 
@@ -45,7 +45,7 @@ Special numbers are values that are of number data type but doesn't exactly beha
 Infinity - 1; // Infinity
 ```
 
-Numbers can manipulated using arithmetic operations like addition, multiplication etc. To do that we use arithmetic operators (`+`, `-`, `*`).
+Numbers can be manipulated using arithmetic operations like addition, multiplication etc. To do that we use arithmetic operators (`+`, `-`, `*`).
 
 ```js
 24 + 21; // 45
@@ -54,13 +54,13 @@ Numbers can manipulated using arithmetic operations like addition, multiplicatio
 20 + 10 * 11; // 130
 ```
 
-Symbols like (`+`, `-`, `*`) used above are called Operators. Putting the operator between two values will return a new value. Like in above example using `+` on 24 and 21 return 45.
+Symbols like (`+`, `-`, `*`) used above are called Operators. Putting the operator between two values will return a new value. Like in above example using the `+` operator on numbers 24 and 21 returns 45.
 
 ---
 
 #### BigInt
 
-Used to represent the number bigger than 9007199254740991 or smaller than -9007199254740991. For BigInt you need to add `n` at the end of the value.
+Used to represent any number bigger than 9007199254740991 or smaller than -9007199254740991. For BigInt you need to add `n` at the end of the value.
 
 ```js
 const bigInt = 1234567890123456789012345678901234567890n;
@@ -88,7 +88,7 @@ Example:
 
 #### Boolean
 
-To differentiate between only two possible values like `day` or `night` , `yes` or `no` , `on` or `off` we use boolean data type in JavaScript that has only two fixed values `true` or `false`.
+To differentiate between only two possible values like `day` or `night` , `yes` or `no` , `on` or `off` we use boolean data type in JavaScript that has only two fixed values: `true` or `false`.
 
 - `true` can represent values like `on` or `yes`
 
@@ -98,17 +98,17 @@ To differentiate between only two possible values like `day` or `night` , `yes` 
 
 #### Void Values (Empty)
 
-To represent the existence of no meaningful values we use special values i.e `null` or `undefined`. These are values that carry no informations. It is used for the places where the operation doesn't produce meaningful value.
+To represent the existence of no meaningful values we use special values i.e `null` or `undefined`. These are values that carry no information. It is used for the places where the operation doesn't produce meaningful value.
 
-`undefined` is the only value of type undefined `null` is the only value of type null
+`undefined` is the only value of type undefined. `null` is the only value of type null.
 
-There is no fundamental difference between `null` or `undefined`. In most of the case you can treat the as interchangeable.
+There is no fundamental difference between `null` or `undefined`. In most of the case you can treat them as interchangeable.
 
 ---
 
 #### Object
 
-Object is a collection of `key` and `value` pair seperated by comma `,`. Where key a `string` and `value` can any data types like number, boolean, string, null, undefined, symbol or object.
+Object is a collection of `key` and `value` pairs seperated by comma `,`. Where key is a `string`, while `value` can be any data type like number, boolean, string, null, undefined, symbol or object.
 
 ```js
 var user = {
@@ -118,10 +118,11 @@ var user = {
   isAdult: true
 };
 ```
+Above, the `user` obect has 4 `key` & `value` pairs, with `name`, `age`, `house` and `isAdult` being the `keys` and the data after `:` being `values`, i.e. `"Arya"`, `21`, `"Stark"`
 
 ### `typeof`
 
-To check the data type of any value we use `typeof` operator. It always return `string` data types.
+To check the data type of any value we use `typeof` operator. It always returns `string` data types with value specifying the data type that was checked by `typeof`.
 
 ```js
 typeof 21; // "number"
@@ -153,7 +154,9 @@ Primitive data type are basic type provided by programming language as a buildin
 
 #### 2. Object (Non-Primitive) Data Type:
 
-For storing some complicated data, programmig languages provide some ways to handle it, starting from primitive type. They have built-in support (adding, removeing, changing) for these kind of data types. Everything that is not primitive is an object in JavaScript. example: function, array etc.
+For storing some complicated data, programmig languages provide some ways to handle it, starting from primitive type. They have built-in support (adding, removing, changing) for these kind of data types. Everything that is not primitive is an object in JavaScript. example: function, array etc.
+
+//FEEDBACK: this section is very hard to understand.
 
 **Non-Primitive Data Types are mutable (can be changed).**
 
