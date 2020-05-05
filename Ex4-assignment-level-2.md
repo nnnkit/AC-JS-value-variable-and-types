@@ -53,7 +53,8 @@ if (num === 1011) {
 
 ## writeTextAnswer
 
-`3 + '4'` in this code first value `3` is a Number data type and `'4'` is a String. Because both values are not same `implicit type conversion` will happen to bring both the value in the same data type. So `string` will be converted to `number` because of preference of number. `Number('4')` is equal to `4`. Now `3` and `4` is number and result is `7`.
+`3 + '4'` 
+In this code first value `3` is a Number data type and `'4'` is a String. Because both values are not same `implicit type conversion` will happen to bring both the value in the same data type. So `string` will be converted to `number` because of preference of number. `Number('4')` is equal to `4`. Now `3` and `4` is number and result is `7`.
 
 Similarly write explaining how this conversion will happen. And what will be the output.
 
@@ -65,10 +66,10 @@ Similarly write explaining how this conversion will happen. And what will be the
 
 What's the output of the following, write the output next to the code as comment
 
-1. 5 \* "5" = ?
+1. 5 * "5" = ?
 2. 6 + "7" = ?
 3. 1 + "JS" = ?
-4. 1 \* "JS" = ?
+4. 1 * "JS" = ?
 5. 5 + true = ?
 6. 6 - true = ?
 7. 7 - false = ?
@@ -80,16 +81,16 @@ What's the output of the following, write the output next to the code as comment
 
 Output of each line of code :
 
-- `3 * '8'`
+- 3 * '8'
 - 1 + '21' + 32
 - "string" ? 4 : 1
 - undefined ? 4 : 1
-- 4 \* Number("")
-- 4 \* 0
+- 4 * Number("")
+- 4 * 0
 - 4 / '2'
 - 4 + true
-- 3 \* false
-- 3 \* ""
+- 3 * false
+- 3 * ""
 - 3 + ""
 
 ## Operators-writeCode
@@ -111,9 +112,9 @@ Output of the following line of code.
 
 ## == and === writeTextAnswer
 
-What is the difference between double equal and tripal equal comparision operator. Explain with example.
+What is the difference between double equal and triple equal comparision operator. Explain with example.
 
-## Double and Tripal equal-writeCode
+## Double and Triple equal-writeCode
 
 ```js
 var a = 5,
@@ -136,6 +137,8 @@ a <= b; // output
 a >= c; // output
 a <= c; // output
 ```
+
+
 
 ```js
 var a = 5,

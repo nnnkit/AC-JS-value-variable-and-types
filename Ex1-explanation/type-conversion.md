@@ -10,14 +10,14 @@ Example:
 
 ![Type COnversion](assets/type-conversion.png)
 
-There are two type of type conversion that happens
+There are two kinds of type conversion that happen:
 
 1. Implicit
 2. Explicit
 
 ### Implicit
 
-Implicit type conversion refers to JavaScript engine's attempt to convert unexpected value type to expected value type like in above example the value `32` got converted into `"32"` to complete the operation. The system does this kind of conversion.
+Implicit type conversion refers to JavaScript engine's attempt to convert unexpected value type to expected value type. Like in above example, the number value `32` got converted into string `"32"` to complete the operation. The system does this kind of conversion on it's own.
 
     true + true; // 2 (boolean to number)
     1 + "2" + 21; // "1221" (number to string)
@@ -26,7 +26,7 @@ Implicit type conversion refers to JavaScript engine's attempt to convert unexpe
 
 ### Explicit
 
-Explicit type conversion is we as developer convert unexpected data type into expected data type.
+Explicit type conversion what is we as developer convert unexpected data type into expected data type.
 
 You can use these functions to convert to respective types i.e `Number()`, `String()`, `Boolean()` etc.
 
@@ -53,7 +53,7 @@ Boolean("Hello"); // true ("Hello" is a truthy value)
 Boolean({}); // true ({} is a truthy value)
 ```
 
-Similarly when converting a value into boolean returns `false` as result that value is considered to be falsy value. There are only six values that are falsy.
+Similarly when converting a value into boolean returns `false` as result that value is considered to be falsy value. There are only six values that are falsey.
 
 1. `false`
 2. `0`
@@ -77,4 +77,4 @@ Boolean(false); // flasy value
 
 **All the values other than six falsy values are truthy values.**
 
-**NOTE**: `true` is a value truthy is a kind of value. `36`, `"Hello"` are truthy values.
+**NOTE**: `true` is a value, while "truthy" is a kind of value. `36`, `"Hello"` are truthy values.

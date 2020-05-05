@@ -5,7 +5,7 @@ var a = 5,
   b = 10;
 ```
 
-For the above code write the output next to code?
+For the above code write the output next to code below:
 
 ```js
 a != b && a < b; //output
@@ -19,7 +19,7 @@ a < b || a == b; //output
 
 ## writeCode
 
-After the following code runs, what is the value of `isWeekend`?reason?
+After the following code runs, what is the value of `isWeekend`? Reason?
 
 ```js
 var isSaturday = true;
@@ -34,7 +34,7 @@ Print following pattern using nested loop using console.log. Take input from pro
 
 ```
   For n = 4,
-  output in console should look like.
+  Output in console should look like:
   1
   2 3
   4 5 6

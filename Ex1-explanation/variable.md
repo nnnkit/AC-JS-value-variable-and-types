@@ -37,7 +37,7 @@ The value of the `"Arya"` will be replaced with `"John"` this is called re-assig
 
 variable can only hold one value at a time.
 
-There are multiple ways of creating a box in JavaScript i.e `var` , `let`, `const`
+There are multiple ways of creating a box (variable) in JavaScript i.e `var` , `let`, `const`
 
 ```js
 var username = "Arya";
@@ -53,4 +53,4 @@ You can create boxes using multiple ways but all the boxes behaves differently.
 
 ### `const`
 
-Box created with const keyword can't be re-assigned to another value.
+Box created with const keyword can't be re-assigned to another value. In other words, once it has been declared, the value of a `const` variable can not be changed ever, i.e, it remains constant. 

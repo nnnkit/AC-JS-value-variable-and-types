@@ -2,7 +2,7 @@
 
 ## Conditions-readText
 
-Condition are used to perform different action based on different conditions. Like you want to `alert` only if the value if a even number.
+Conditions are used to perform different action based on different conditions. Like you want to `alert` only if the value is an even number.
 
 To do this, we use the `if` statement or conditional operator `?` also known as ternary if.
 
@@ -19,8 +19,8 @@ statement 3
 ```
 
 - `if` statement evaluates a condition in the parentheses and
-- if it results to `true` statement 1 is executed, then statement 3 is excuted (statement 2 doesnt excutes)
-- if it results to `false` statement 1 is not executed rather statement 2 inside of else is evaluated, then statement 3 is executed
+- if it results to `true`, statement 1 is executed, then statement 3 is excuted (statement 2 doesnt excute)
+- if it results to `false`, statement 1 is not executed, rather statement 2 inside of else is evaluated, then statement 3 is executed
 
 Example:
 
@@ -35,9 +35,9 @@ if (num % 2 === 0) {
 
 `if` statement evaluates a condition in the parentheses and if it results to `true` the block of code is executed. Or else the `else` block is executed.
 
-If the value inside the parentheses is not resulting to `true` or `false` if converts the value into boolean. So if the value in parentheses is a truthy value `if` block is executes or `else` block is executed.
+If the value inside the parentheses is not resulting to `true` or `false` if converts the value into boolean. So if the value in parentheses is a truthy value, `if` block is executed or if the value is a falsey value, `else` block is executed.
 
-When we want to test multiple condition you can also chain several `else if` statement. Like
+When we want to test multiple conditions you can also chain several `else if` statements. Like
 
 ```js
 let num = 20;
@@ -54,14 +54,14 @@ if (num === 21) {
 
 ## `?` ternary `if else`
 
-`if` is a statement but `?` is an expression. `?` is also know as ternary if else. It is the only ternary operator in JS. It's called ternary because it acts on three operand. Like
+`if` is a statement but `?` is an expression. `?` is also know as `ternary if else`. It is the only ternary operator in JS. It's called ternary because it acts on three operand. Like
 
 ```js
 // syntax
 let result = condition ? value1 : value2;
 ```
 
-The condition is evaluated and the result is `truthy` value1 is returned or else value2 is returned. For example
+The condition is evaluated and if the result is `truthy` value1 is returned, or else value2 is returned if the reult if falsey. For example
 
 ```js
 let isAdult = age > 18 ? true : false;
@@ -93,7 +93,7 @@ console.log(10);
 
 The above code works but the idea of programming is to make things _easy_ not _hard._ Like say if we need list of all the numbers till `1000` this approach would become really hard. So we need a way to make way to run a piece of code multiple times. This is called loop.
 
-Looping allows us to execute a block of code and go back to see if it meets the condition run the code again or not. If yes it will run the code again.
+Looping allows us to execute a block of code and go back to see if it meets the condition to run the code again or not. If yes it will run the code again.
 
 There are three type of loop
 
@@ -127,19 +127,33 @@ while (i < 10) {
 
 do { // code block to be executed } while (condition);
 
-exapmle - do { consoel.log(i) i = i+1; } while (i < 10);
+- Example 
+
+```js
+do { consoel.log(i) i = i+1; } while (i < 10);
+```
 
 3. for loop
 
 Syntax
 
-for (statement 1; statement 2; statement 3) { // code block to be executed } statement 1 :- the initial value where loop starts it is excuted only once at the begening of the loop statement 2 :- condition statement 3 :- is executed (every time) after the code block has been executed.
+for (statement 1; statement 2; statement 3) { // code block to be executed } 
 
-example for (i = 0; i < 5; i= i+1) { console.log(i); }
+statement 1 :- the initial value where loop starts it is excuted only once at the begening of the loop 
+statement 2 :- condition 
+statement 3 :- is executed (every time) after the code block has been executed.
 
-pointer :- 1)for and while loop are entry checking means if condition is wrong at the begening of loop it wont run But do while is exit checking means that it will at least run one time even if condition is wrong at the begening.
+- Example 
 
-2. One of the common mistake made writing loop is we forget to increment the counter, so it becomes an infinite loop.(In all the above loop example you can see that variable on which condition is checked is updated inside that loop ) -->
+```js
+for (i = 0; i < 5; i= i+1) { console.log(i); }
+```
+
+Pointers :- 
+
+1. `for` and `while` loop are entry checking means if condition is wrong at the begening of loop it wont run, but `do while` is exit checking means that it will at least run one time even if condition is wrong at the begening.
+
+2. One of the common mistake made writing loop is we forget to increment the counter, so it becomes an infinite loop. (In all the below loop example you can see that variable on which condition is checked is updated inside that loop )
 
 ```js
 while (condition) {
@@ -155,7 +169,7 @@ while (num <= 10) {
 
 The above code can be simplified like this using loops.
 
-A statement starting with `while` or `for`\* creates a loop. For `while` statement, after the keyword it accepts a expression in parentheses followed by a block of code. Every time the expression in parentheses results to `true` the block of code will be executed.
+A statement starting with `while` or `for`* creates a loop. For `while` statement, after the keyword it accepts a expression in parentheses followed by a block of code. Every time the expression in parentheses results to `true` the block of code will be executed.
 
 ## `for` loop
 
