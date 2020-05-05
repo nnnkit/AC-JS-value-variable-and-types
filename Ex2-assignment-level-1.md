@@ -1,6 +1,7 @@
 ## writeCode
 
-Define 5 values of types number and string and store them in variables.
+Define 5 values of number and string data types and store them in a variable.
+
 
 ## writeCode
 
